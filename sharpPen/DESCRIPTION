@@ -1,0 +1,21 @@
+Package: sharpPen
+Title: Penalized Data Sharpening for Local Polynomial Regression
+Version: 1.3
+Author: W.J.Braun, D.Wang and X.J.Hu
+Description: Functions and data sets for penalized data sharpening.
+  Nonparametric regressions are computed subject to smoothness and
+  other kinds of penalties.
+  corresponding to:
+  David Ruppert, Simon J Sheather, and Matthew P Wand.(1995) "An effective
+  bandwidth selector for local least squares regression". 
+  David Ruppert and Matthew P Wand.(1994) "Multivariate locally weighted
+  least squares regression".
+  W John Braun, X Joan Hu, and Xiuli Kang. (2018) "Data sharpening in
+  local regression guided by global constraint".
+LazyLoad: true
+LazyData: true
+Maintainer: Dongying Wang  <dongying.wang93@gmail.com>
+Depends: KernSmooth, MASS, glmnet, np
+License: Unlimited
+NeedsCompilation: yes
+Packaged: 2021-01-19 07:23:57 UTC; root
