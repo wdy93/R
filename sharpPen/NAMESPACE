@@ -1,7 +1,0 @@
-exportPattern(".")
-export(dpilc)
-import(
-  KernSmooth, MASS, glmnet, np
-)
-importFrom("stats", "dnorm", "coef", "lm")
-useDynLib(sharpPen)
